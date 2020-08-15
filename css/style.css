@@ -1,0 +1,375 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+    max-width: 100%;
+    background-color: #eeeeee;
+}
+
+.logo {
+    display: flex;
+    color: #1b262c;
+    text-decoration: none !important;
+}
+
+.logo-text:hover {
+    color: #6a2c70;
+}
+
+.logo-text {
+    margin-left: 100px;
+    font-size: 38px;
+    font-family: 'Lobster', cursive;
+    transition: all .5s;
+
+}
+
+.logo-img {
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+.menu {
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.menu-link {
+    padding-right: 50px;
+    color: #1b262c;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+
+.menu-link:hover {
+    color: #6a2c70;
+}
+
+#about-us {
+    background-image: url(../img/jeshoots-com-__ZMnefoI3k-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    margin-right: 60%;
+    padding-top: 150px;
+}
+
+.main-title {
+    color: #fb7f7f;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.star {
+    height: 30px;
+    width: 33px;
+    margin-left: 47%;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    color: #f0f0f0;
+}
+
+.learn-btn {
+    margin-top: 30px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    background-color: #fb7f7f;
+    width: 50%;
+    color: #f0f0f0;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    margin-left: 25%;
+    transition: all 0.5s;
+}
+
+.learn-btn:hover {
+    background-color: #f0f0f0;
+    color: #fb7f7f;
+    box-shadow: 4px 5px 5px gray;
+}
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+
+}
+
+.slide-1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    width: 600px;
+}
+
+.service-title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fb7f7f;
+}
+
+.hotel-title {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #1b262c;
+}
+
+.dishwashing-title {
+    color: #1b262c;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.text-align {
+    text-align: left;
+}
+
+.topic-text {
+    font-size: 17px;
+}
+
+/* .services{
+    display: flex;
+    justify-content: row;
+} */
+
+#team {
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    background-color: #eeeeee;
+}
+
+.subtitle {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fb7f7f;
+}
+
+.garden-subtitle {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fb7f7f;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.card-1 {
+    text-align: center;
+}
+
+.img-1 {
+    height: 250px;
+    width: 300px;
+    border-radius: 90px;
+}
+
+.right-side {
+    display: flex;
+
+}
+
+.right-topic {
+    padding: 33px 40px;
+    background-color: #eeeeee;
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+.right-topic::after,
+.right-topic::before {
+    content: "";
+    position: absolute;
+    width: 33px;
+    height: 33px;
+}
+
+.right-topic::before {
+    border-top: 3px solid #fb7f7f;
+    border-left: 3px solid #fb7f7f;
+    top: 19px;
+    left: 19px;
+}
+
+.right-topic::after {
+    border-bottom: 3px solid #fb7f7f;
+    border-right: 3px solid #fb7f7f;
+    bottom: 19px;
+    right: 19px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.left-topic {
+    padding: 33px 40px;
+    background-color: #eeeeee;
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+.left-topic::after,
+.left-topic::before {
+    content: "";
+    position: absolute;
+    width: 33px;
+    height: 33px;
+}
+
+.left-topic::before {
+    border-top: 3px solid #fb7f7f;
+    border-left: 3px solid #fb7f7f;
+    top: 19px;
+    left: 19px;
+}
+
+.left-topic::after {
+    border-bottom: 3px solid #fb7f7f;
+    border-right: 3px solid #fb7f7f;
+    bottom: 19px;
+    right: 19px;
+}
+
+.swiper {
+    color: #fff;
+}
+
+.name-1 {
+    padding-top: 15px;
+    color: #1b262c;
+}
+
+.icons {
+    margin: 0px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+   transition: all 0.5s;
+
+}
+
+.icons:hover {
+    background: #fb7f7f;
+    box-shadow: 4px 5px 5px gray;
+    
+}
+.view-more{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 35px;
+    font-size: 18px;
+    outline: none;
+    background-color: #fb7f7f;  
+    align-items: center;
+    color: #f0f0f0;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    margin-left: 45%;
+    transition: all 0.5s;
+}
+.view-more:hover {
+    background-color: lightblue;
+    color: black;
+    box-shadow: 4px 5px 5px gray;
+}
+#contact{
+    background-image: url(../img/contact-me.jpg);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+.container{
+    position: absolute;
+    left: 15%;
+    padding-top: 150px;
+    text-align: left;
+}
+.find-us{
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fb7f7f;
+}
+.contacts{
+    padding-bottom: 15px;
+    color: #1b262c;
+}
+.address-location{
+    color: gray;
+    
+}
+.address-text{
+    color: #1b262c;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    margin-bottom: 0;
+}
+.footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #3A383D;
+    margin-left: 25px;
+}
+.copyright{
+    color: #3A383D;
+}
+.menu-footer{
+    display: flex;
+}
